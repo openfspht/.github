@@ -2,7 +2,7 @@
 
 Configuration GitHub au niveau de l'organisation **OpenFSP**.
 
-🇬🇧 [English version](README.md)
+[English version](README.md)
 
 [`profile/README.fr.md`](profile/README.fr.md) est la version française de la page de
 profil de l'organisation, publiée à <https://github.com/openfspht>.

@@ -2,7 +2,7 @@
 
 ## An open standard for payment interoperability in Haiti
 
-🇫🇷 [Lire en français](README.fr.md)
+[Lire en français](README.fr.md)
 
 Haiti has working digital payment services and no interoperability between them. Every
 merchant integration is written from scratch, per provider, in every language. Testing

@@ -2,7 +2,7 @@
 
 ## Une norme ouverte d'interopérabilité des paiements en Haïti
 
-🇬🇧 [Read in English](README.md)
+[Read in English](README.md)
 
 Haïti a des services de paiement numérique qui fonctionnent et aucune interopérabilité
 entre eux. Chaque intégration marchande est écrite de zéro, par opérateur, dans chaque
@@ -80,8 +80,8 @@ Développeurs, opérateurs de paiement, institutions financières, chercheurs et
 publiques sont tous bienvenus, par le même processus RFC public, sans voie privée.
 
 La gouvernance, les intérêts déclarés du porteur du projet, et les conditions dans
-lesquelles la gouvernance s'ouvre à un comité de pilotage sont écrits plutôt que sous-
-entendus.
+lesquelles la gouvernance s'ouvre à un comité de pilotage sont écrits plutôt
+que sous-entendus.
 
 ## Licence
 
