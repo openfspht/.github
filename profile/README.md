@@ -5,9 +5,9 @@
 [Lire en français](README.fr.md)
 
 Haiti has working digital payment services and no interoperability between them. Every
-merchant integration is written from scratch, per provider, in every language. Testing
-means using production with real money. Adding a second provider means writing a second
-integration.
+merchant integration is written from scratch, per provider, in every language. Provider
+sandboxes exercise the happy path, and the failure paths that cost money cannot be
+summoned on demand. Adding a second provider means writing a second integration.
 
 OpenFSP replaces that with a single open protocol, plus a self-hosted gateway that
 implements it, and thin client SDKs.

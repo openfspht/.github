@@ -6,8 +6,9 @@
 
 Haïti a des services de paiement numérique qui fonctionnent et aucune interopérabilité
 entre eux. Chaque intégration marchande est écrite de zéro, par opérateur, dans chaque
-langage. Tester revient à utiliser la production avec de l'argent réel. Ajouter un second
-opérateur revient à écrire une seconde intégration.
+langage. Les bacs à sable des opérateurs exercent le chemin heureux, et les chemins de
+défaillance, ceux qui coûtent de l'argent, ne se déclenchent pas sur commande. Ajouter un
+second opérateur revient à écrire une seconde intégration.
 
 OpenFSP remplace cela par un protocole ouvert unique, accompagné d'une passerelle
 auto-hébergée qui l'implémente et de bibliothèques clientes légères.
