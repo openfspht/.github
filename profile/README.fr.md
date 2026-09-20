@@ -10,8 +10,9 @@ langage. Les bacs à sable des opérateurs exercent le chemin heureux, et les ch
 défaillance, ceux qui coûtent de l'argent, ne se déclenchent pas sur commande. Ajouter un
 second opérateur revient à écrire une seconde intégration.
 
-OpenFSP remplace cela par un protocole ouvert unique, accompagné d'une passerelle
-auto-hébergée qui l'implémente et de bibliothèques clientes légères.
+OpenFSP propose un protocole ouvert unique d'interopérabilité horizontale entre
+opérateurs, accompagné d'une passerelle auto-hébergée qui l'implémente et de
+bibliothèques clientes légères.
 
 ```mermaid
 flowchart TD
@@ -65,6 +66,10 @@ Des limites permanentes, non la description d'un début :
 français. Rien n'est encore implémenté, et rien ne devrait être utilisé en production. Le
 travail en cours consiste à arrêter le protocole au grand jour avant d'écrire du code
 qu'il serait coûteux de défaire.
+
+Le travail avance par phases, et deux sont cadrées à ce jour : le protocole avec sa
+passerelle, puis le paiement de proximité au comptoir. Le protocole est conçu pour
+grandir, non pour être achevé.
 
 C'est le meilleur moment pour l'influencer.
 

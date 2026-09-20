@@ -9,8 +9,8 @@ merchant integration is written from scratch, per provider, in every language. P
 sandboxes exercise the happy path, and the failure paths that cost money cannot be
 summoned on demand. Adding a second provider means writing a second integration.
 
-OpenFSP replaces that with a single open protocol, plus a self-hosted gateway that
-implements it, and thin client SDKs.
+OpenFSP proposes a single open protocol for horizontal interoperability between
+providers, together with a self-hosted gateway that implements it and thin client SDKs.
 
 ```mermaid
 flowchart TD
@@ -60,6 +60,9 @@ Permanent boundaries, not a description of an early stage:
 **Specification draft.** Sixteen RFCs are written, in English and French. Nothing is
 implemented yet, and nothing should be used in production. The current work is settling
 the protocol in the open before writing code that would be expensive to unwrite.
+
+The work is phased, and two phases are scoped so far: the protocol with its gateway, then
+proximity payment at a counter. The protocol is built to grow, not to be finished.
 
 This is the best moment to influence it.
 
