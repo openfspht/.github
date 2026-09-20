@@ -6,8 +6,9 @@
 
 Haiti has working digital payment services and no interoperability between them. Every
 merchant integration is written from scratch, per provider, in every language. Provider
-sandboxes exercise the happy path, and the failure paths that cost money cannot be
-summoned on demand. Adding a second provider means writing a second integration.
+sandboxes let you test a payment that succeeds, but not reproduce on demand the ones that
+fail, and those are the ones that cost money. Adding a second provider means writing a
+second integration.
 
 OpenFSP proposes a single open protocol for horizontal interoperability between
 providers, together with a self-hosted gateway that implements it and thin client SDKs.

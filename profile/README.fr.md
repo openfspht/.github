@@ -6,9 +6,9 @@
 
 Haïti a des services de paiement numérique qui fonctionnent et aucune interopérabilité
 entre eux. Chaque intégration marchande est écrite de zéro, par opérateur, dans chaque
-langage. Les bacs à sable des opérateurs exercent le chemin heureux, et les chemins de
-défaillance, ceux qui coûtent de l'argent, ne se déclenchent pas sur commande. Ajouter un
-second opérateur revient à écrire une seconde intégration.
+langage. Les bacs à sable des opérateurs permettent de tester un paiement qui réussit,
+mais pas de provoquer à volonté ceux qui échouent, alors que ce sont eux qui coûtent de
+l'argent. Ajouter un second opérateur revient à écrire une seconde intégration.
 
 OpenFSP propose un protocole ouvert unique d'interopérabilité horizontale entre
 opérateurs, accompagné d'une passerelle auto-hébergée qui l'implémente et de
