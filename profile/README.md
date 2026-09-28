@@ -65,7 +65,7 @@ Permanent boundaries, not a description of an early stage:
 
 ## Status
 
-**Specification draft.** Sixteen ADRs are written, in French. Nothing is
+**Specification draft.** Sixteen ADRs and the specification they ground are written, in French. Nothing is
 implemented yet, and nothing should be used in production. The current work is settling
 the protocol in the open before writing code that would be expensive to unwrite.
 
@@ -78,8 +78,8 @@ This is the best moment to influence it.
 
 | | |
 |---|---|
-| [**adrs**](https://github.com/openfspht/adrs) | The specification: the ADRs, the process, the bibliography. |
-| [**openfsp**](https://github.com/openfspht/openfsp) | The specification repository: ADR sources, governance, the provider registry. |
+| [**adrs**](https://github.com/openfspht/adrs) | The specification (the rules) and the ADRs (the decisions), with the bibliography. |
+| [**openfsp**](https://github.com/openfspht/openfsp) | Governance, contribution rules, the provider registry. |
 
 ## Contributing
 

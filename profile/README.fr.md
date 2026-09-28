@@ -69,7 +69,7 @@ Des limites permanentes, non la description d'un début :
 
 ## État
 
-**Spécification à l'état de brouillon.** Seize ADR sont écrites, en français. Rien n'est encore implémenté, et rien ne devrait être utilisé en production. Le
+**Spécification à l'état de brouillon.** Seize ADR et la spécification qu'elles fondent sont écrites, en français. Rien n'est encore implémenté, et rien ne devrait être utilisé en production. Le
 travail en cours consiste à arrêter le protocole au grand jour avant d'écrire du code
 qu'il serait coûteux de défaire.
 
@@ -83,8 +83,8 @@ C'est le meilleur moment pour l'influencer.
 
 | | |
 |---|---|
-| [**adrs**](https://github.com/openfspht/adrs) | La spécification : les ADR, le processus, la bibliographie. |
-| [**openfsp**](https://github.com/openfspht/openfsp) | Le dépôt de la spécification : sources des ADR, gouvernance, registre des opérateurs. |
+| [**adrs**](https://github.com/openfspht/adrs) | La spécification (les règles) et les ADR (les décisions), avec la bibliographie. |
+| [**openfsp**](https://github.com/openfspht/openfsp) | Gouvernance, règles de contribution, registre des opérateurs. |
 
 ## Contribuer
 
