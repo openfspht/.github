@@ -7,8 +7,8 @@ Organisation-level GitHub configuration for **OpenFSP**.
 [`profile/README.md`](profile/README.md) renders as the organisation profile page at
 <https://github.com/openfspht>.
 
-Nothing else lives here. The specification, the RFC process and the governance documents
-are in the [`openfsp`](https://github.com/openfspht/openfsp) repository.
+Nothing else lives here. The specification and the ADR process are in
+[`adrs`](https://github.com/openfspht/adrs); the governance documents are in [`openfsp`](https://github.com/openfspht/openfsp).
 
 ## What OpenFSP is
 

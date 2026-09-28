@@ -7,8 +7,8 @@ Configuration GitHub au niveau de l'organisation **OpenFSP**.
 [`profile/README.fr.md`](profile/README.fr.md) est la version française de la page de
 profil de l'organisation, publiée à <https://github.com/openfspht>.
 
-Rien d'autre ne vit ici. La spécification, le processus RFC et les documents de
-gouvernance sont dans le dépôt [`openfsp`](https://github.com/openfspht/openfsp).
+Rien d'autre ne vit ici. La spécification et le processus ADR sont dans
+[`adrs`](https://github.com/openfspht/adrs) ; les documents de gouvernance sont dans [`openfsp`](https://github.com/openfspht/openfsp).
 
 ## Ce qu'est OpenFSP
 
