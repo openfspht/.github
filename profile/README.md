@@ -1,6 +1,13 @@
-# OpenFSP
+<div align="center">
 
-## An open standard for payment interoperability in Haiti
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.openfsp.org/logo/openfsp-logo-inverse.svg">
+  <img src="https://cdn.openfsp.org/logo/openfsp-logo.svg" alt="OpenFSP" width="320">
+</picture>
+
+**An open standard for payment interoperability in Haiti**
+
+</div>
 
 [Lire en français](README.fr.md)
 
@@ -29,11 +36,11 @@ Provider integration is written **once**, in the gateway, and every language get
 
 | | |
 |---|---|
-| 📚 **The specification** | The protocol: data model, payment lifecycle, capabilities, errors, idempotency, webhooks. Settled in the open through an RFC process. |
+| 📚 **The specification** | The protocol: data model, payment lifecycle, capabilities, errors, idempotency, webhooks. Settled in the open through an ADR process. |
 | ⚙️ **The gateway** | A self-hosted Kotlin and Spring Boot server: OpenFSP protocol in, provider APIs out. One adapter per provider. |
 | 🧪 **The mock server** | Imitates real providers, failure modes included, so you can build and test without a merchant account. |
 | 📦 **The SDKs** | Thin protocol clients, idiomatic per ecosystem. Plain HTTP always works too. |
-| ✅ **The conformance suite** | Machine-executable. A conformance claim you cannot run is not a claim. |
+| ✅ **The conformance suite** | Machine-executable: the report is reproducible by anyone. |
 
 ## What OpenFSP is not
 
@@ -58,7 +65,7 @@ Permanent boundaries, not a description of an early stage:
 
 ## Status
 
-**Specification draft.** Sixteen RFCs are written, in English and French. Nothing is
+**Specification draft.** Sixteen ADRs are written, in French. Nothing is
 implemented yet, and nothing should be used in production. The current work is settling
 the protocol in the open before writing code that would be expensive to unwrite.
 
@@ -71,13 +78,13 @@ This is the best moment to influence it.
 
 | | |
 |---|---|
-| [**The RFCs**](https://rfc.openfsp.org) | The specification, readable online in both languages. |
-| [**openfsp**](https://github.com/openfspht/openfsp) | The specification repository: RFC sources, governance, the provider registry. |
+| [**adrs**](https://github.com/openfspht/adrs) | The specification: the ADRs, the process, the bibliography. |
+| [**openfsp**](https://github.com/openfspht/openfsp) | The specification repository: ADR sources, governance, the provider registry. |
 
 ## Contributing
 
 Developers, payment service providers, financial institutions, researchers and public
-authorities are all welcome, through the same public RFC process, with no private track.
+authorities are all welcome, through the same public ADR process, with no private track.
 
 Governance, the declared interests of the project's steward, and the conditions under
 which governance opens to a steering committee are all written down rather than implied.

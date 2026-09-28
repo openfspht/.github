@@ -1,6 +1,13 @@
-# OpenFSP
+<div align="center">
 
-## Une norme ouverte d'interopérabilité des paiements en Haïti
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.openfsp.org/logo/openfsp-logo-inverse.svg">
+  <img src="https://cdn.openfsp.org/logo/openfsp-logo.svg" alt="OpenFSP" width="320">
+</picture>
+
+**Une norme ouverte d'interopérabilité des paiements en Haïti**
+
+</div>
 
 [Read in English](README.md)
 
@@ -31,11 +38,11 @@ langage en bénéficie.
 
 | | |
 |---|---|
-| 📚 **La spécification** | Le protocole : modèle de données, cycle de vie du paiement, capacités, erreurs, idempotence, notifications. Arrêté au grand jour par un processus RFC. |
+| 📚 **La spécification** | Le protocole : modèle de données, cycle de vie du paiement, capacités, erreurs, idempotence, notifications. Arrêté au grand jour par un processus ADR. |
 | ⚙️ **La passerelle** | Un serveur auto-hébergé en Kotlin et Spring Boot : le protocole OpenFSP en entrée, les interfaces des opérateurs en sortie. Un adaptateur par opérateur. |
 | 🧪 **Le simulateur** | Imite les opérateurs réels, modes de défaillance compris, pour développer et tester sans compte marchand. |
 | 📦 **Les bibliothèques clientes** | Des clients minces du protocole, idiomatiques pour chaque écosystème. Le HTTP nu fonctionne toujours aussi. |
-| ✅ **La suite de conformité** | Exécutable par machine. Une conformité qu'on ne peut pas exécuter n'est pas une conformité. |
+| ✅ **La suite de conformité** | Exécutable par machine : le rapport est reproductible par quiconque. |
 
 ## Ce qu'OpenFSP n'est pas
 
@@ -62,8 +69,7 @@ Des limites permanentes, non la description d'un début :
 
 ## État
 
-**Spécification à l'état de brouillon.** Seize RFC sont écrites, en anglais et en
-français. Rien n'est encore implémenté, et rien ne devrait être utilisé en production. Le
+**Spécification à l'état de brouillon.** Seize ADR sont écrites, en français. Rien n'est encore implémenté, et rien ne devrait être utilisé en production. Le
 travail en cours consiste à arrêter le protocole au grand jour avant d'écrire du code
 qu'il serait coûteux de défaire.
 
@@ -77,13 +83,13 @@ C'est le meilleur moment pour l'influencer.
 
 | | |
 |---|---|
-| [**Les RFC**](https://rfc.openfsp.org) | La spécification, lisible en ligne dans les deux langues. |
-| [**openfsp**](https://github.com/openfspht/openfsp) | Le dépôt de la spécification : sources des RFC, gouvernance, registre des opérateurs. |
+| [**adrs**](https://github.com/openfspht/adrs) | La spécification : les ADR, le processus, la bibliographie. |
+| [**openfsp**](https://github.com/openfspht/openfsp) | Le dépôt de la spécification : sources des ADR, gouvernance, registre des opérateurs. |
 
 ## Contribuer
 
 Développeurs, opérateurs de paiement, institutions financières, chercheurs et autorités
-publiques sont tous bienvenus, par le même processus RFC public, sans voie privée.
+publiques sont tous bienvenus, par le même processus ADR public, sans voie privée.
 
 La gouvernance, les intérêts déclarés du porteur du projet, et les conditions dans
 lesquelles la gouvernance s'ouvre à un comité de pilotage sont écrits plutôt
