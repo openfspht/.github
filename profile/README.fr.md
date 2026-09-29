@@ -17,7 +17,7 @@ langage. Les bacs à sable des opérateurs permettent de tester un paiement qui 
 mais pas de provoquer à volonté ceux qui échouent, alors que ce sont eux qui coûtent de
 l'argent. Ajouter un second opérateur revient à écrire une seconde intégration.
 
-OpenFSP propose un protocole ouvert unique d'interopérabilité horizontale entre
+OpenFSP propose un protocole ouvert unique d'intégration marchande avec tous les
 opérateurs, accompagné d'une passerelle auto-hébergée qui l'implémente et de
 bibliothèques clientes légères.
 

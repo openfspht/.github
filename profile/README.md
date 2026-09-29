@@ -17,8 +17,8 @@ sandboxes let you test a payment that succeeds, but not reproduce on demand the 
 fail, and those are the ones that cost money. Adding a second provider means writing a
 second integration.
 
-OpenFSP proposes a single open protocol for horizontal interoperability between
-providers, together with a self-hosted gateway that implements it and thin client SDKs.
+OpenFSP proposes a single open protocol for merchant integration with every payment
+provider, together with a self-hosted gateway that implements it and thin client SDKs.
 
 ```mermaid
 flowchart TD
