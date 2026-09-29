@@ -69,9 +69,9 @@ Des limites permanentes, non la description d'un début :
 
 ## État
 
-**Spécification à l'état de brouillon.** Seize ADR et la spécification qu'elles fondent sont écrites, en français. Rien n'est encore implémenté, et rien ne devrait être utilisé en production. Le
-travail en cours consiste à arrêter le protocole au grand jour avant d'écrire du code
-qu'il serait coûteux de défaire.
+**Spécification à l'état de brouillon.** Dix-huit ADR et la spécification qu'elles fondent sont écrites, en français.
+À ne pas utiliser en production. Le protocole est d'abord arrêté au grand jour ;
+l'implémentation suit, en commençant par le serveur simulé et la suite de conformité, puis la passerelle.
 
 Le travail avance par phases, et deux sont cadrées à ce jour : le protocole avec sa
 passerelle, puis le paiement de proximité au comptoir. Le protocole est conçu pour

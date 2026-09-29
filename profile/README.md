@@ -65,9 +65,9 @@ Permanent boundaries, not a description of an early stage:
 
 ## Status
 
-**Specification draft.** Sixteen ADRs and the specification they ground are written, in French. Nothing is
-implemented yet, and nothing should be used in production. The current work is settling
-the protocol in the open before writing code that would be expensive to unwrite.
+**Specification draft.** Eighteen ADRs and the specification they ground are written, in French.
+Not for production use. The protocol is settled in the open first; implementation follows,
+starting with the mock server and the conformance suite, then the gateway.
 
 The work is phased, and two phases are scoped so far: the protocol with its gateway, then
 proximity payment at a counter. The protocol is built to grow, not to be finished.
