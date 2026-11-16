@@ -14,5 +14,5 @@ gouvernance dans [`governance`](https://github.com/openfspht/governance).
 
 ## Modifier ce dépôt
 
-Je modifie les deux versions ensemble, dans le même commit. En cas de divergence, l'anglais
+Nous modifions les deux versions ensemble, dans le même commit. En cas de divergence, l'anglais
 fait foi.

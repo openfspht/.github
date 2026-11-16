@@ -54,6 +54,6 @@ contrat vers les API actuelles de MonCash et NatCash : il sert dès aujourd'hui.
 - Gouvernance : [openfspht/governance](https://github.com/openfspht/governance)
 - Licence : [Apache-2.0](https://github.com/openfspht/governance/blob/main/LICENSE)
 
-**Contribuer** : je reçois relectures et propositions par le
+**Contribuer** : Karako Systems reçoit relectures et propositions par le
 [processus de décision](https://openfsp.org/fr/docs/decisions), selon
 [CONTRIBUTING.md](https://github.com/openfspht/governance/blob/main/CONTRIBUTING.md).

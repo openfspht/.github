@@ -14,5 +14,5 @@ documents are in [`governance`](https://github.com/openfspht/governance).
 
 ## Editing this repository
 
-I change both language versions together, in the same commit. English is the reference
+We change both language versions together, in the same commit. English is the reference
 where they disagree.
