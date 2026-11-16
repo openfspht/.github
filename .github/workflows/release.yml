@@ -1,0 +1,31 @@
+name: Release
+
+on:
+  workflow_call:
+    inputs:
+      tag:
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  notes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          REPO: ${{ github.repository }}
+        run: |
+          base="https://github.com/${REPO}/blob/${TAG}"
+          {
+            gh release view "$TAG" --repo "$REPO" --json body --jq .body
+            printf '\n## Profile at %s\n\n' "$TAG"
+            printf -- "- [English](%s/profile/README.md)\n" "$base"
+            printf -- "- [Français](%s/profile/README.fr.md)\n" "$base"
+          } > notes.md
+          gh release edit "$TAG" --repo "$REPO" --notes-file notes.md
