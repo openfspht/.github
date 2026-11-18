@@ -43,7 +43,7 @@ contract into the existing MonCash and NatCash APIs, so it is usable today.
 | **Specification** | The contract: data model, lifecycle, capabilities, errors, idempotency, webhooks, authentication, conformance. |
 | **Gateway** | One implementation, self-hosted by the merchant: OpenFSP in, MonCash and NatCash APIs out. |
 | **Simulator** | Plays the providers, failures included, and a native OpenFSP provider, for testing without a merchant account. |
-| **SDKs** | The next step: Kotlin for the JVM first, then TypeScript. The protocol also works over plain HTTP. |
+| **SDKs** | Kotlin for the JVM on Maven Central (`org.openfsp:openfsp-sdk`) and TypeScript on npm (`@openfsp/sdk`). The protocol also works over plain HTTP. |
 | **Conformance suite** | Checks a gateway or a native provider against the specification; anyone can rerun it. |
 
 ## Read next

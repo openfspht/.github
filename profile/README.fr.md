@@ -43,7 +43,7 @@ contrat vers les API actuelles de MonCash et NatCash : il sert dès aujourd'hui.
 | **Spécification** | Le contrat : modèle de données, cycle de vie, capacités, erreurs, idempotence, webhooks, authentification, conformité. |
 | **Passerelle** | Une implémentation, hébergée par le marchand : OpenFSP d'un côté, API de MonCash et NatCash de l'autre. |
 | **Simulateur** | Joue les opérateurs, pannes comprises, ainsi qu'un opérateur OpenFSP natif, pour tester sans compte marchand. |
-| **SDK** | La prochaine étape : Kotlin pour la JVM d'abord, puis TypeScript. Le protocole s'utilise aussi en HTTP seul. |
+| **SDK** | Kotlin pour la JVM sur Maven Central (`org.openfsp:openfsp-sdk`) et TypeScript sur npm (`@openfsp/sdk`). Le protocole s'utilise aussi en HTTP seul. |
 | **Suite de conformité** | Vérifie une passerelle ou un opérateur natif par rapport à la spécification ; chacun peut la relancer. |
 
 ## Pour aller plus loin
